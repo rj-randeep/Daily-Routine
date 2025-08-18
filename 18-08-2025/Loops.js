@@ -56,16 +56,54 @@
 // console.log(compoundInterest(500, 0.08, 5)); // Expected output: 734.66 (no rounding)
 
 
-let answer = 0;
-let limit = prompt("Enter the limit : ")
+// let answer = 0;
+// let limit = prompt("Enter the limit : ");
 
-  for (let j = 0; j <= limit; j++){
-    for (let i = 2; i <= j; i++){
-      if (j % i == 0) {
-        break;
-      }
-      else {
-        answer = answer + i;
-      }
-    }
-  }
+// for (let j = 2; j <= limit; j++) {
+//   let isPrime = true;
+//   for (let i = 2; i * i <= j; i++) { // No Math.sqrt, just i*i
+//     if (j % i === 0) {
+//       isPrime = false;
+//       break;
+//     }
+//   }
+//   if (isPrime) {
+//     answer += j;
+//   }
+// }
+// console.log(answer);
+
+
+// let amount = prompt("Enter the amount: ")
+
+// let discount;
+
+// switch(true){
+//   case amount<500:
+//     discount = 0;
+//     break;
+
+//   case 500<amount && amount<1000:
+//     discount = 10;
+//     break;
+  
+//   case 1000<amount && amount<2000:
+//     discount = 20;
+//     break;
+//   case 2000<amount && amount<4000:
+//     discount = 30;
+//     break;
+//   case 4000<amount && amount<5000:
+//     discount = 40;
+//     break;
+//   case 5000<=amount:
+//     discount = 50;
+//     break;
+//   default:
+//     console.log("Enter a valid amount")
+// }
+
+// let dicsountedAmount = amount - (amount*(discount/100));
+
+// console.log(dicsountedAmount);
+
