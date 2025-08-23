@@ -220,14 +220,19 @@
 
 // console.log(movie.getDetails()); 202
 
+// function getObjectDetails(person, DOBYear, WorkingIn) {
+//     let obj = {
+//         name: person,
+//         age: new Date().getFullYear() - DOBYear,
+//         occupation: WorkingIn
+//     };
+//     return obj;
+// }
 
-let obj = {
-    name: "John Doe",
-    age: 30,
-    occupation: "Software Developer",
-    greet: function() {
-        return `Hello, my name is ${this.name} and I am a ${this.occupation}.`;
-    }
-}
+// const obj = getObjectDetails(prompt("Enter your name:"), prompt("Enter your year of birth:"), prompt("Enter your occupation:"));
 
-console.log(obj); // Output: Hello, my name is John Doe and I am a Software Developer.
+// console.log(obj.name); // Output: John Doe
+// console.log(obj.age); // Output: 31
+// console.log(obj.occupation); // Output: Software Developer 
+
+
