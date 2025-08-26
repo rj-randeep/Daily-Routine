@@ -111,6 +111,35 @@ function clickPara(){
 console.log(p.previousElementSibling);
 console.log(p.nextElementSibling);
 
+
+document.body.addEventListener(
+    'keydown',
+    (event) => {
+        console.log('keyPressed');
+        console.log(event.key);
+    }
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // //complete the addBlog function to add moveup, movedown and delete button.
 // function addBlog(blog) {
 //   const blogList = document.querySelector(".blog-list");
